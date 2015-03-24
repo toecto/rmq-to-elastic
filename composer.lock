@@ -1,0 +1,158 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "378b9d8ccb11e581750f5911a0dd0aa6",
+    "packages": [
+        {
+            "name": "nervetattoo/elasticsearch",
+            "version": "v2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nervetattoo/elasticsearch.git",
+                "reference": "6215e036b2e7940514d211828b852ad4118bb329"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nervetattoo/elasticsearch/zipball/6215e036b2e7940514d211828b852ad4118bb329",
+                "reference": "6215e036b2e7940514d211828b852ad4118bb329",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "atoum/atoum": "dev-master@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ElasticSearch": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raymond Julin",
+                    "email": "raymond.julin@gmail.com",
+                    "homepage": "http://raymondjulin.com"
+                }
+            ],
+            "description": "ElasticSearch client for PHP 5.3",
+            "homepage": "http://github.com/nervetattoo/elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch"
+            ],
+            "time": "2014-08-07 08:27:42"
+        },
+        {
+            "name": "toecto/rmq-simple-wrapper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/toecto/rmq-simple-wrapper.git",
+                "reference": "001c48f6b1d376739900125ccd821f1652025031"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/toecto/rmq-simple-wrapper/zipball/001c48f6b1d376739900125ccd821f1652025031",
+                "reference": "001c48f6b1d376739900125ccd821f1652025031",
+                "shasum": ""
+            },
+            "require": {
+                "videlalvaro/php-amqplib": "~2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "toecto\\AMQPSimpleWrapper\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxim Popov",
+                    "email": "maxim@zalil.ru"
+                }
+            ],
+            "description": "AMQP simplified client",
+            "support": {
+                "source": "https://github.com/toecto/rmq-simple-wrapper/tree/master",
+                "issues": "https://github.com/toecto/rmq-simple-wrapper/issues"
+            },
+            "time": "2015-03-13 01:33:15"
+        },
+        {
+            "name": "videlalvaro/php-amqplib",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/videlalvaro/php-amqplib.git",
+                "reference": "7989ddce7c4aa6038483d8999b12d3b1f7c81ff9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/videlalvaro/php-amqplib/zipball/7989ddce7c4aa6038483d8999b12d3b1f7c81ff9",
+                "reference": "7989ddce7c4aa6038483d8999b12d3b1f7c81ff9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-sockets": "Use AMQPSocketConnection"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PhpAmqpLib": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Alvaro Videla"
+                }
+            ],
+            "description": "This library is a pure PHP implementation of the AMQP protocol. It's been tested against RabbitMQ.",
+            "homepage": "https://github.com/videlalvaro/php-amqplib/",
+            "keywords": [
+                "message",
+                "queue",
+                "rabbitmq"
+            ],
+            "time": "2015-02-18 18:16:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "toecto/rmq-simple-wrapper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

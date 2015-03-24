@@ -1,0 +1,20 @@
+{
+    "name": "toecto/rmq-to-elastic",
+    "authors": [
+        {
+            "name": "Maxim Popov",
+            "email": "maxim@zalil.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:toecto/rmq-simple-wrapper.git"
+        }
+    ],
+    "require": {
+        "nervetattoo/elasticsearch": ">=2.0",
+	"toecto/rmq-simple-wrapper": "dev-master"
+    }
+}
+
