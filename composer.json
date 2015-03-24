@@ -13,8 +13,11 @@
         }
     ],
     "require": {
-        "nervetattoo/elasticsearch": ">=2.0",
-	"toecto/rmq-simple-wrapper": "dev-master"
+        "ruflin/elastica": "~1.0",
+	    "toecto/rmq-simple-wrapper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"toecto\\AMQPToElastic\\": ""}
     }
 }
 

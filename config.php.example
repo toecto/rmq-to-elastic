@@ -1,0 +1,23 @@
+<?php
+
+return array(
+    'rabbitmq' => array(
+        'host' => '',
+        'port' => '',
+        'vhost' => '',
+        'user' => '',
+        'password' => '',
+    ),
+    'elastic' => array(
+        'host' => '',
+        'port' => '',
+        'user' => '',
+        'password' => '',
+    ),
+    'consumer' => array(
+        'class' => 'toecto\\AMQPToElastic\\Consumer',
+        'queue' => '',
+        'limit' => 500,
+        'prefetch' => 10,
+    ),
+);
